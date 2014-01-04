@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/zaid/morsu.git
-  revision: cea13c4893314b9058c5453b537dd1e70f975520
+  revision: 9a0fff4c7a552139d081d50b0f470fd8e9cc566a
   specs:
     morsu (0.0.1)
       thor
