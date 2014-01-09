@@ -1,5 +1,8 @@
 Emorsu::Application.routes.draw do
+  resources :assets, only: :index
   resources :tokens, only: :create
+
+  root to: 'assets#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

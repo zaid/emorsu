@@ -19,6 +19,9 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 
 gem 'morsu', github: 'zaid/morsu'
+gem 'ember-rails'
+gem 'ember-source', '1.3.0'
+gem 'ember-data-source', '1.0.0.beta.4'
 
 group :development, :test do
   gem 'rspec-rails', '~> 2.14.1'
