@@ -8,3 +8,5 @@
 
 # for more details see: http://emberjs.com/guides/application/
 window.Emorsu = Ember.Application.create()
+
+Emorsu.ApplicationAdapter = DS.RESTAdapter.extend()
