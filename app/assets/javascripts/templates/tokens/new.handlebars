@@ -1,0 +1,14 @@
+<form {{action "createToken" tokenContent on="submit"}}>
+  <div class="row">
+    <div class="small-12 columns">
+      <div class="row collapse">
+        <div class="small-10 columns">
+          {{input type="text" placeholder="enter plaintext or Morse code" value=tokenContent}}
+        </div>
+        <div class="small-2 columns">
+          <button class="button postfix">Convert</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
