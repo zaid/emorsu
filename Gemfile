@@ -24,6 +24,10 @@ gem 'ember-source', '~> 1.3.1'
 gem 'ember-data-source', '1.0.0.beta.4'
 gem 'foundation-rails'
 
+group :production do
+  gem 'unicorn'
+end
+
 group :development, :test do
   gem 'rspec-rails', '~> 2.14.1'
 end
@@ -35,9 +39,6 @@ end
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
-
-# Use unicorn as the app server
-# gem 'unicorn'
 
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
