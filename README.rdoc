@@ -1,3 +1,7 @@
 == Emorsu
 
 A simple Ember JS application which converts plaintext <--> Morse code using the Morsu[https://github.com/zaid/morsu] gem.
+
+=== Demo
+
+A demo of Emorsu can be found here[http://emorsu.herokuapp.com].
